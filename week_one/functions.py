@@ -1,21 +1,12 @@
-name = "troy"
-other_name = "alex"
-
-# public static String func_name() 
-
+# This is how you define a function
 def Q1():
     print("Hello World!")
 
+# This is how you define a function with a parameter
 def Q2(param):
     print(param)
 
-def reversal(param):
-    rev_name = ""
-    for char in param:
-        rev_name = char + rev_name
-    print(rev_name)
-
+# This is how you call your functions
 Q1()
-Q2(other_name)
+Q2("Passing in a parameter.")
 
-reversal("reverse this string")
