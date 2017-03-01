@@ -39,11 +39,12 @@ def Q9(bool_int_dict, key):
     # TODO return the value in the input map at the given key
 
 def Q10(string_int_dict, value):
-    pass
+	return value in string_int_dict.values()
+
     # TODO return true if value is in the input map as a value at any key, false otherwise
 
 def Q11(string_double_dict):
-    pass
+    return len(string_double_dict)
     # TODO return the number of entries in the input map
 
 def Q12(string_int_dict):
@@ -64,4 +65,6 @@ def Q15(int_int_dict, value):
 
 if __name__ == "__main__":
     # execute only if run as a script
-    pass
+	dictionary = {"Mike": 67, "Alex":98, "Emily":100}
+	print(Q10(dictionary,67))
+	print(Q11(dictionary))
