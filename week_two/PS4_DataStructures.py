@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
 def Q1(number_list):
-    pass
+	pass
     # TODO return number of ints in the list
 
 def Q2(string_list):
     pass
-    # TODO add the string "movie" to the end of the list
+    # TODO add the string "movie" to the end of the list and return that list
 
 def Q3(number_list, index):
     pass
@@ -65,6 +65,4 @@ def Q15(int_int_dict, value):
 
 if __name__ == "__main__":
     # execute only if run as a script
-	dictionary = {"Mike": 67, "Alex":98, "Emily":100}
-	print(Q10(dictionary,67))
-	print(Q11(dictionary))
+    pass

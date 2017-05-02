@@ -1,5 +1,5 @@
 
-# How you declare ints, strings, lists, etc 
+# How you declare ints, strings, lists, etc
 # String name = "andy";
 name = "andy"
 other_name = "mike"
